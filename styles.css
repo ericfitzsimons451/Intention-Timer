@@ -1,1 +1,120 @@
+body {
+  background: #2b2733;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
 
+main,
+.time-box {
+  display: flex;
+}
+
+h1 {
+  background-color: #46424d;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin: 0;
+  font-size: 20px;
+}
+
+h2 {
+  background-color: #2b2733;
+  color: #cbc9cf;
+  margin: 0;
+  padding: 20px 0 20px 0;
+}
+
+h3 {
+  color: #cbc9cf;
+  margin-left: 30px;
+}
+
+.selection-form {
+  background: #46424d;
+  width: 800px;
+  margin: 15px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0 30px 0 30px;
+}
+
+li {
+  border: solid 2px #cbc9cf;
+  border-radius: 5px;
+  width: 120px;
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li:last-child {
+  margin-right: 0px;
+}
+
+
+h4 {
+  color: #cbc9cf;
+  margin: 5px;
+}
+
+img {
+  color: #cbc9cf;
+  width: 20px;
+  margin-top: 10px;
+}
+
+.accomplishment-input input {
+  margin: 0 30px 0 30px;
+  background-color: #46424d;
+  border: 0px;
+  border-bottom: 1px solid #cbc9cf;
+  width: 85%;
+  padding: 0 20px 0 20px;
+}
+
+.time-selectors input {
+  margin: 0 30px 0 30px;
+  background-color: #46424d;
+  border: 0px;
+  border-bottom: 1px solid #cbc9cf;
+  min-: 200px;
+  padding: 0 20px 0 20px;
+}
+
+button {
+  height: 25px;
+  width: 130px;
+  border-radius: 5px;
+  background: #cbc9cf;
+  float: right;
+  margin: 30px;
+  border: solid 1px black;
+}
+
+
+.stored-activities-panel {
+  background: #2b2733;
+  border-left: solid 3px #46424d;
+}
+
+.stored-activities-panel h2 {
+  margin: 20px 0 20px 20px;
+}
+
+.stored-activities-panel p {
+  color: #cbc9cf;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  main {
+    flex-direction: column;
+  }
+}

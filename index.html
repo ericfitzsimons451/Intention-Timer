@@ -1,10 +1,63 @@
 <!DOCTYPE html>
+
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text.css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
   <title>Intention Timer</title>
 </head>
-<body>
 
+<body>
+  <h1>INTENTION TIMER</h1>
+  <main>
+    <div class="selection-form">
+      <h2>New Activity</h2>
+      <div class="activity-selection-card">
+        <h3>Select a Category:</h3>
+        <ul>
+          <li>
+            <img src="./assets/study.svg" alt="Study">
+            <h4>Study</h4>
+          </li>
+          <li>
+            <img src="./assets/meditate.svg" alt="Meditate">
+            <h4>Meditate</h4>
+          </li>
+          <li>
+            <img src="./assets/exercise.svg" alt="Exercise">
+            <h4>Exercise</h4>
+          </li>
+        </ul>
+        <div class="accomplishment-input">
+          <h3>What would you like to accomplish during this time?</h3>
+          <input type="text" name="" value="">
+        </div>
+        <div class="time-box">
+          <div class="time-selectors">
+            <h3>Minutes</h3>
+            <input type="text" name="" value="">
+          </div>
+          <div class="">
+
+          </div>
+          <div class="time-selectors">
+            <h3>Seconds</h3>
+            <input type="text" name="" value="">
+          </div>
+        </div>
+        <button type="button" class="start-button">START ACTIVITY</button>
+      </div>
+    </div>
+    <div class="stored-activities-panel">
+      <h2>Past Activities</h2>
+      <div class="stored-activity-list">
+        <p>You haven't logged any activities yet.<br></p>
+        <p>Complete the form to the left to get started!</p>
+      </div>
+    </div>
+  </main>
 </body>
-<script type="text/javascript" src="main.js"</script>
+<script type="text/javascript" src="main.js" </script>
