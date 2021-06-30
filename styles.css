@@ -54,11 +54,6 @@ li {
   align-items: center;
 }
 
-li:last-child {
-  margin-right: 0px;
-}
-
-
 h4 {
   color: #cbc9cf;
   margin: 5px;
@@ -68,6 +63,46 @@ img {
   color: #cbc9cf;
   width: 20px;
   margin-top: 10px;
+}
+
+.study:hover {
+  border: solid 2px #b3fd78;
+}
+
+.study:hover > h4 {
+  color: #b3fd78;
+}
+
+.study:hover > img {
+  fill: #b3fd78;
+}
+
+.meditate:hover {
+  border: solid 2px #C278FD;
+}
+
+.meditate:hover > h4 {
+  color: #C278FD;
+}
+
+.meditate:hover > img {
+  fill: #c278fd;
+}
+
+.exercise:hover {
+  border: solid 2px #FD8078;
+}
+
+.exercise:hover > h4 {
+  color: #FD8078;
+}
+
+.exercise:hover > img {
+  fill: #FD8078;
+}
+
+li:last-child {
+  margin-right: 0px;
 }
 
 .accomplishment-input input {
@@ -111,10 +146,4 @@ button {
 .stored-activities-panel p {
   color: #cbc9cf;
   margin-left: 20px;
-}
-
-@media screen and (max-width: 800px) {
-  main {
-    flex-direction: column;
-  }
 }
