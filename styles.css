@@ -5,8 +5,7 @@ body {
   margin: 0;
 }
 
-main,
-.time-box {
+main {
   display: flex;
 }
 
@@ -104,23 +103,35 @@ img {
 li:last-child {
   margin-right: 0px;
 }
+.accomplishment-input {
+  /* border: solid 1px green; */
+  margin: 0 30px 0 0;
+}
 
 .accomplishment-input input {
   margin: 0 30px 0 30px;
   background-color: #46424d;
   border: 0px;
+  /* border: solid 1px red; */
   border-bottom: 1px solid #cbc9cf;
-  width: 85%;
-  padding: 0 20px 0 20px;
+  min-width: 735px;
+}
+
+.time-box {
+  display: flex;
+  justify-content: space-between;
 }
 
 .time-selectors input {
-  margin: 0 30px 0 30px;
+  margin: 0 0 0 30px;
   background-color: #46424d;
   border: 0px;
   border-bottom: 1px solid #cbc9cf;
-  min-: 200px;
-  padding: 0 20px 0 20px;
+  min-width: 250px;
+}
+
+.seconds {
+  margin: 0 30px 0 0;
 }
 
 button {
